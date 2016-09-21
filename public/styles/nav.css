@@ -1,0 +1,32 @@
+/* navbar should:
+* be fixed to the top (tip: add a bunch of empty or placeholder lines or paragraphs to the body so you can see how it behaves when you scroll vertically.)
+* be 80px in height
+* be the full width of the viewport
+* have #00a087 as its default background color
+* have #e8fdff as its default font color
+* the inner content should not be touching the viewport edge on the left/right edges and instead be spaced out 2ems on either side, as shown in compass. (tip: specify left/right padding but leave top/bottom padding at 0px.)
+*/
+
+nav#nav-bar {
+  height: 80px;
+  background-color: #00a087;
+  color: #e8fdff;
+  position: fixed-top;
+  width: 100%;
+  padding: 0em 2em;
+}
+
+img.logo {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+span.header {
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 2em;
+    float: left;
+    line-height: 2.5em;
+}

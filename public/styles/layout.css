@@ -1,4 +1,10 @@
 /*
+
+* MAIN should:
+* be 450px wide
+* center aligned to the body
+* white background so that users can clearly separate space from the "gutter" or "curtains" of the page
+
  * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
@@ -18,8 +24,72 @@ body {
   margin: 0;
   color: #244751;
   background-color: #eee;
+  font-family: 'Baloo Bhaina', cursive, sans-serif;
 }
+
+
+/*
+ * padded text inside textarea
+ * line below heading
+ * slightly rounded borders
+ * right aligned counter
+ * spaced by 2em on either side and centered
+ */
+/*
+main {
+  width: 450px;
+  height: 180px;
+  text-align: center;
+  margin: 140px auto 0px auto;
+  background-color: #d3d3d3;
+  padding: 1em;
+  border-radius: 5%;
+}
+
+main h2 {
+  border-bottom: medium solid black;
+  text-align: left;
+  margin: 0px 0px 10px 0px;
+  padding: 0px 0px -10px 0px;
+}
+
+main textarea {
+  padding: 0.5em;
+  background-color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  width: 420px;
+  height: 60px;
+}
+
+main input {
+  float: left;
+  display: inline-block;
+  height: 30px;
+  margin: 4px 0px 1px 0px;
+}
+
+main .counter {
+  float: right;
+  display: inline-block;
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  margin: 3px 0px 1px 0px;
+}*/
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+
+/*
+
+       <section class="new-tweet">
+        <h2>Compose Tweet</h2>
+        <form action="/tweets/" method="POST">
+          <textarea name="text" placeholder="What are you humming about?"></textarea>
+          <input type="submit" value="Tweet">
+          <span class="counter">140</span>
+        </form>
+      </section>*/
