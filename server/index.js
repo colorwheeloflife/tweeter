@@ -26,7 +26,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 // makes and enables the connection between the database (dbInstance) and the tweets api functional action file (tweetsAPI)
+  console.log("Hello");
 db.connect((dbInstance) => {
+  console.log("HI");
   app.use('/tweets', tweetsApi(dbInstance));
 });
 

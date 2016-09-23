@@ -16,7 +16,7 @@ nav#nav-bar {
   padding: 0em 2em;
 }
 
-img.logo {
+img.logo:first-of-type {
     width: 80px;
     height: 80px;
     float: left;

@@ -1,22 +1,29 @@
 /*INPUT BOX*/
 main {
+  background-color: #4F4F4F;
+  width: 600px;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+section:first-of-type {
   width: 450px;
   height: 180px;
   text-align: center;
-  margin: 140px auto 0px auto;
+  margin: 0px auto 0px auto;
   background-color: #d3d3d3;
   padding: 1em;
   border-radius: 5%;
 }
 
-main h2 {
+section:first-of-type h2 {
   border-bottom: medium solid black;
   text-align: left;
   margin: 0px 0px 10px 0px;
   padding: 0px 0px -10px 0px;
 }
 
-main textarea {
+section:first-of-type textarea {
   padding: 0.5em;
   background-color: #ffffff;
   display: block;
@@ -25,20 +32,137 @@ main textarea {
   height: 60px;
 }
 
-main input {
+section:first-of-type input {
   float: left;
   display: inline-block;
   height: 30px;
   margin: 4px 0px 1px 0px;
 }
 
-main .counter {
+section:first-of-type .counter {
   float: right;
   display: inline-block;
   font-style: italic;
   font-family: sans-serif;
   font-size: 0.8em;
   margin: 3px 0px 1px 0px;
+}
+
+
+
+
+
+#tweet-container {
+  background-color: #ffffff;
+  width: 450px;
+  height: 808px;
+  text-align: center;
+  margin: 10px auto 0px auto;
+  padding: 1px;
+}
+
+article {
+  background-color: #EBEBEB;
+  width: 450px;
+  height: 220px;
+  text-align: center;
+  margin: 0px auto 10px auto;
+  padding: 0px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+
+
+/* +.repost-logo+.heart-logo */
+
+article header {
+    background-color: #F2F2F2;
+    height: 80px;
+    margin: 0px auto 0px auto;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+article img:first-of-type {
+  background-color: #00a087;
+    width: 60px;
+    height: 60px;
+    float: left;
+    border: 1px solid black;
+    margin: 9px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+article header span:first-of-type {
+    float: left;
+    display: inline-block;
+    font-size: 20px;
+}
+
+article header span:second-of-type {
+    float: right;
+    font-size: 13px;
+    margin: 3px 5px 0px 0px;
+}
+
+article p {
+background-color: #ffffff;
+    height: 100px;
+    margin: 0px auto 0px auto;
+    padding: 20px 5px 10px 5px;
+    text-align: left;
+}
+
+article footer {
+  background-color: #FAFAFA;
+  height: 38px;
+  margin: 0px auto 0px auto;
+  padding: 0px;
+  border-radius: 10px;
+  border: 1px solid #F0F0F0;
+}
+
+article footer span {
+    float: left;
+    font-size: 13px;
+    padding: 8px;
+}
+
+
+.flag-logo {
+float: right;
+    height: 25px;
+    width: 25px;
+    padding: 4px;
+    display: inline-block;
+    margin: 5px 3px 3px 3px;
+    opacity: 0;
+}
+
+.repost-logo {
+float: right;
+    height: 25px;
+    width: 25px;
+    padding: 4px;
+    display: inline-block;
+    margin: 5px 3px 3px 3px;
+    opacity: 0;
+}
+
+.heart-logo {
+float: right;
+    height: 25px;
+    width: 25px;
+    padding: 4px;
+    display: inline-block;
+    margin: 5px 3px 3px 3px;
+    opacity: 0;
+}
+
+footer img:hover {
+  opacity: 1;
 }
 
 
