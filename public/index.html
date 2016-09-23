@@ -34,11 +34,22 @@
     <nav id="nav-bar">
       <img class="logo" src="/images/bird.png" width="80px" height="80px">
       <span class="header">Tweeter</span>
+
+      <button id="compose-button" >✍ Compose Tweet Now!</button>
+
+    <!--   <button name="compose-button" label="Compose Tweet Now" oncommand="
+      <style>section:first-of-type{display:block}</style>"/>
+ -->
+
+
+
+
+
     </nav>
 
     <!-- Page-specific (main) content here -->
     <main class="container">
-      <section class="new-tweet">
+      <section id="new-tweet">
         <h2>Compose Tweet</h2>
         <form id="inputForm" action="/tweets" method="POST">
           <textarea class="textInput" placeholder="What are you humming about?" name="text"></textarea>
@@ -46,6 +57,10 @@
           <span class="counter">140</span>
         </form>
       </section>
+
+
+
+
 
 
       <section id="tweet-container">

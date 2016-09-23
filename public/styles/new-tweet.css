@@ -1,19 +1,19 @@
-/*INPUT BOX*/
 main {
-  background-color: #4F4F4F;
   width: 600px;
-  height: 1000px;
+  background-color: #FFFFFF;
   margin: 0 auto;
+  padding: 70px 0 0 0;
 }
 
 section:first-of-type {
   width: 450px;
   height: 180px;
   text-align: center;
-  margin: 0px auto 0px auto;
-  background-color: #d3d3d3;
-  padding: 1em;
+  margin: 0px auto;
+  background-color: #E5E5E5;
+  padding: 15px;
   border-radius: 5%;
+  display: none;
 }
 
 section:first-of-type h2 {
@@ -50,12 +50,9 @@ section:first-of-type .counter {
 
 
 
-
-
 #tweet-container {
   background-color: #ffffff;
   width: 450px;
-  height: 808px;
   text-align: center;
   margin: 10px auto 0px auto;
   padding: 1px;
@@ -72,47 +69,44 @@ article {
   border: 1px solid black;
 }
 
-
-
-/* +.repost-logo+.heart-logo */
-
 article header {
-    background-color: #F2F2F2;
-    height: 80px;
-    margin: 0px auto 0px auto;
-    padding: 1px;
-    border-radius: 10px;
+  background-color: #F2F2F2;
+  height: 80px;
+  margin: 0px auto 0px auto;
+  padding: 1px;
+  border-radius: 10px;
 }
 
-article img:first-of-type {
+article header img {
   background-color: #00a087;
-    width: 60px;
-    height: 60px;
-    float: left;
-    border: 1px solid black;
-    margin: 9px;
-    border-radius: 3px;
-    display: inline-block;
+  width: 60px;
+  height: 60px;
+  float: left;
+  border: 1px solid black;
+  margin: 9px;
+  border-radius: 3px;
+  display: inline-block;
 }
 
-article header span:first-of-type {
-    float: left;
-    display: inline-block;
-    font-size: 20px;
+article header span:nth-of-type(2n+1) {
+  float: left;
+  display: inline-block;
+  font-size: 20px;
 }
 
-article header span:second-of-type {
-    float: right;
-    font-size: 13px;
-    margin: 3px 5px 0px 0px;
+article header span:nth-of-type(2n+2) {
+  float: right;
+  font-size: 13px;
+  margin: 3px 5px 0px 0px;
 }
 
 article p {
-background-color: #ffffff;
-    height: 100px;
-    margin: 0px auto 0px auto;
-    padding: 20px 5px 10px 5px;
-    text-align: left;
+  background-color: #ffffff;
+  height: 100px;
+  margin: 0px auto 0px auto;
+  padding: 25px 5px 25px 15px;
+  text-align: left;
+  line-height: 1.5;
 }
 
 article footer {
@@ -125,72 +119,44 @@ article footer {
 }
 
 article footer span {
-    float: left;
-    font-size: 13px;
-    padding: 8px;
+  float: left;
+  font-size: 13px;
+  padding: 8px 5px 5px 15px;
 }
 
-
-.flag-logo {
-float: right;
-    height: 25px;
-    width: 25px;
-    padding: 4px;
-    display: inline-block;
-    margin: 5px 3px 3px 3px;
-    opacity: 0;
+footer img {
+  float: right;
+  height: 25px;
+  width: 25px;
+  padding: 4px;
+  display: inline-block;
+  margin: 5px 3px 3px 3px;
+  opacity: 0;
 }
 
-.repost-logo {
-float: right;
-    height: 25px;
-    width: 25px;
-    padding: 4px;
-    display: inline-block;
-    margin: 5px 3px 3px 3px;
-    opacity: 0;
+/*article footer img:nth-of-type(2n+2) {
+  float: right;
+  height: 25px;
+  width: 25px;
+  padding: 4px;
+  display: inline-block;
+  margin: 5px 3px 3px 3px;
+  opacity: 0;
 }
 
-.heart-logo {
-float: right;
-    height: 25px;
-    width: 25px;
-    padding: 4px;
-    display: inline-block;
-    margin: 5px 3px 3px 3px;
-    opacity: 0;
-}
+article footer img:nth-of-type(2n+3) {
+  float: right;
+  height: 25px;
+  width: 25px;
+  padding: 4px;
+  display: inline-block;
+  margin: 5px 3px 3px 3px;
+  opacity: 0;
+}*/
 
 footer img:hover {
   opacity: 1;
 }
-
-
-
-
-
-/*TWEET BOX
-* each tweet is an article, each as an html tag
-* no id's
-* each tweet artcile has a header and a footer, each html tags
-* use dummy text to simulate content initially
-* background color for the header should be different than the main body area
-* write HTML for the component without adding any CSS classes and then as you style it out, deicde which CSS classes you really need and where you can simly use tag-based selectors (example: 'article.tweet header' is clear enough.)
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
